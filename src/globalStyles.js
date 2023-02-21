@@ -20,6 +20,9 @@ export default createGlobalStyle`
   border: 1px solid white;
   padding: 10px 5px;
   }
+  th{  
+  min-width: 38px;
+  }
 
   
 `;

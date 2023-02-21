@@ -1,29 +1,4 @@
-import styled from 'styled-components';
-
-const SelectItem = styled.div`
-  display: flex;
-  justify-content: 8space-between;
-  align-items: center;
-  margin: 5px 0;
-  height: 36px;
-  padding: 0 20px;
-  font-size: 14px;
-  color: white;
-  background-color: #1f2127;
-  border-radius: 5px;
-  box-shadow: 0 1px 2px black;
-  cursor: pointer;
-  &:hover {
-    background-color: #191b1f;
-  }
-`;
-const DelIcon = styled.span`
-  margin-right: 0;
-  margin-left: auto;
-  &:hover {
-    color: red;
-  }
-`;
+import { SelectItem, DelIcon } from './selectColumns.styled';
 
 const SelectItemComponent = ({
   item,
